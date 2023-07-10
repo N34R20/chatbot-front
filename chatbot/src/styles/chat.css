@@ -1,0 +1,71 @@
+/* Estilos generales */
+.chat-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .new-chat-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4286f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .chat-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .chat.active {
+    background-color: #ddd;
+  }
+  
+  .chat-window {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .message-list {
+    height: 300px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    font-weight: bold;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #4286f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
